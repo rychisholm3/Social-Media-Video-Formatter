@@ -1,12 +1,12 @@
 # social-clip
 
-**social-clip** is a command-line video formatting tool that automatically reformats any source video for every major social media platform — correct aspect ratio, resolution, bitrate, duration cap, text overlay, and audio normalization — in a single command.
+**social-clip** is a command-line video formatting tool that automatically reformats any source video for every major social media platform. social-clip can correct aspect ratio, resolution, bitrate, duration cap, text overlay, and audio normalization in a single command.
 
 ## Core Functionality
 
-The tool accepts any video file and exports platform-ready copies using OpenShot's Python library (`libopenshot`). This project was built to demonstrate a working understanding of OpenShot's core primitives — `Timeline`, `Clip`, `Keyframe`, and `FFmpegWriter` — applied to a real automation problem rather than a manual editing workflow.
+The tool accepts any video file and exports platform-ready copies using OpenShot's Python library (`libopenshot`). This project was built to demonstrate a working understanding of OpenShot's core primitives `Timeline`, `Clip`, `Keyframe`, and `FFmpegWriter`.
 
-Each export applies a "cover" scale so the video fills the target frame without black bars and centers the clip on the canvas. A text overlay can be added, rendered as a fade-in/fade-out animated caption. Audio is automatically level-matched to the -14 LUFS broadcast standard used by YouTube and Spotify. Batch mode exports all six platforms at once into an output directory.
+Each export applies a "cover" scale so the video fills the target frame without black bars and centers the clip on the canvas. A text overlay can be added, rendered as a fade-in/fade-out animated caption. Audio is automatically level-matched to the broadcast standard used by YouTube and Spotify. Exports all six platforms at once into an output directory if requested.
 
 ## Supported Platforms
 
