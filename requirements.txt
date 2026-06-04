@@ -1,0 +1,8 @@
+# libopenshot Python bindings are bundled with the OpenShot installer.
+# After installing OpenShot (https://www.openshot.org/download/), add the
+# bundled Python path to your PYTHONPATH (see README).
+#
+# Windows example:
+#   $env:PYTHONPATH = "C:\Program Files\OpenShot Video Editor\lib\python3"
+#
+# No additional PyPI packages are required — libopenshot is self-contained.
